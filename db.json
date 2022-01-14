@@ -8,11 +8,11 @@
       "id": 1
     },
     {
-      "message": "HD failed in workstation 02",
-      "attention": true,
-      "tech": "John Doe",
-      "date": "2022-01-14T14:17:33.015Z",
-      "id": 2
+      "id": 2,
+      "message": "HD in workstation 02 fixed",
+      "attention": false,
+      "tech": "Sam Smith",
+      "date": "2022-01-14T15:20:50.202Z"
     },
     {
       "message": "1122 wireless down ",
