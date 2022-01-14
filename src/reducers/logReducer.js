@@ -4,6 +4,7 @@ import {
   DELETE_LOG,
   GET_LOGS,
   LOGS_ERROR,
+  SEARCH_LOGS,
   SET_CURRENT,
   SET_LOADING,
   UPDATE_LOG,
@@ -16,7 +17,7 @@ const initialState = {
   error: null,
 };
 
-export default (state = initialState, action) => {
+const logReducer =  (state = initialState, action) => {
   switch (action.type) {
     case ADD_LOG:
       return {
@@ -47,6 +48,11 @@ export default (state = initialState, action) => {
         logs: state.logs.filter((log) => log.id !== action.payload),
         loading: false,
       };
+    case SEARCH_LOGS:
+      return {
+        ...state,
+        logs: action.payload,
+      };
     case SET_LOADING:
       return {
         ...state,
@@ -68,3 +74,5 @@ export default (state = initialState, action) => {
       return state;
   }
 };
+
+export default logReducer;
