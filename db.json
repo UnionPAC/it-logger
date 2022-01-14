@@ -1,18 +1,18 @@
 {
   "logs": [
     {
-      "message": "Changed network card for server 093",
+      "id": 1,
+      "message": "Changed network card for server 098",
       "attention": false,
       "tech": "Sara Wilson",
-      "date": "2022-01-14T14:17:15.599Z",
-      "id": 1
+      "date": "2022-01-14T18:09:55.938Z"
     },
     {
       "id": 2,
-      "message": "HD in workstation 02 fixed",
-      "attention": false,
-      "tech": "Sam Smith",
-      "date": "2022-01-14T15:20:50.202Z"
+      "message": "Hard drive in workstation 002 down",
+      "attention": true,
+      "tech": "Geoff Jamieson",
+      "date": "2022-01-14T18:10:13.258Z"
     },
     {
       "message": "1122 wireless down ",
@@ -24,14 +24,14 @@
   ],
   "techs": [
     {
-      "id": 1,
-      "firstName": "John",
-      "lastName": "Doe"
-    },
-    {
       "id": 2,
       "firstName": "Sam",
       "lastName": "Smith"
+    },
+    {
+      "firstName": "Geoff",
+      "lastName": "Jamieson",
+      "id": 3
     }
   ]
 }
